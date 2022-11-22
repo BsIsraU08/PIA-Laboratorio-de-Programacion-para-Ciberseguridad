@@ -78,7 +78,7 @@ function Send-ToEmail([string]$email, [string]$attachmentpath){
 
     $message = new-object Net.Mail.MailMessage;
 
-    $message.From = "israbola18@gmail.com"; # Aqui va tu cuenta de gmail.
+    $message.From = "###"; # Aqui va tu cuenta de gmail.
 
     $message.To.Add($email);
 
@@ -106,4 +106,4 @@ function Send-ToEmail([string]$email, [string]$attachmentpath){
 
  }
 
-Send-ToEmail  -email "bolanosisra08@gmail.com" -attachmentpath $path; # En email pones el destinatario
+Send-ToEmail  -email "###" -attachmentpath $path; # En email pones el destinatario
