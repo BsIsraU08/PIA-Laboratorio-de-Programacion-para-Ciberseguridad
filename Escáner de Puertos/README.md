@@ -9,7 +9,7 @@
 - Escaneo de puertos con el modulo threading para tener multiplos hilos. 
 ### Nmap.py
  Script que contiene un menú en el cual se puede realizar:
- - Escaneo UDP 
- - Escaneo completo 
- - Detección de sistema operativo 
+ - Escaneo UDP.
+ - Escaneo completo. 
+ - Detección de sistema operativo. 
  - Escaneo de red con ping. 
